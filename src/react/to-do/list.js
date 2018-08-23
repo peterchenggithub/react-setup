@@ -9,7 +9,7 @@ class List extends React.Component {
     render(){
         return(
             <div>
-                
+                Name,Status
                 {
                     this.props.list.map((item, idx) => {
                         return <ListItem key={idx} index={idx} item={item} del={this.props.del} edit={this.props.edit}/>

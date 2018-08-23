@@ -26,7 +26,8 @@ class ListItem extends React.Component{
         console.log('listItem - render()');
         return (
             <div>
-            {this.props.item.name}, {this.props.item.status}, {this.state.status}
+            
+            {this.props.index} {this.props.item.name}, {this.props.item.status}, {this.state.status}
             <input type="checkbox" checked={this.state.status} onChange={this.handleCheckBox}  />
             </div>
         )

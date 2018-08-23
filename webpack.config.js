@@ -19,7 +19,7 @@ module.exports = {
         title: 'Output Management',
         template: './template/index.html'
     }),
-    new webpack.HotModuleReplacementPlugin()
+   new webpack.HotModuleReplacementPlugin()
   ],
   output: {
     filename: '[name].bundle.js',
